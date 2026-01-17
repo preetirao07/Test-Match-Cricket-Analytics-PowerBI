@@ -30,5 +30,5 @@ Each page includes:
 - Delivered a clean, interactive dashboard for advanced sports analysis
 
 ## Files Included
-- `SA_vs_IND_Test_Match_Player_Stats.pbix`
+- `Test_Match_Player_Stats.pbix`
 - Project documentation and analysis notes
