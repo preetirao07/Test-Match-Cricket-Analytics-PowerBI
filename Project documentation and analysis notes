@@ -1,0 +1,29 @@
+## Project Workflow – Test Match Analytics
+
+### 1. Data Collection
+- Web-scraped **Test match** player statistics from ESPNcricinfo StatsGuru
+- Extracted batting, bowling, and fielding datasets for South Africa vs India matches
+
+### 2. Data Cleaning & Transformation
+Performed in Power BI Power Query:
+- Corrected numeric and percentage-based data formats
+- Standardized player names and match formats
+- Removed missing and inconsistent values
+- Created calculated columns to support Test match analysis
+
+### 3. Data Modeling
+- Modeled datasets to enable consistent player-level analysis across batting, bowling, and fielding
+- Optimized relationships for slicers and cross-page filtering
+
+### 4. DAX Implementation
+- Used VLOOKUP-style DAX to populate **player category** columns
+- Implemented `RANKX` to dynamically rank players based on Test match metrics
+- Applied `POWER()` and `ABS()` for metric normalization and calculations
+
+### 5. Dashboard Development
+- Created **three dedicated pages** for Test match batting, bowling, and fielding analysis
+- Designed interactive visuals using slicers and KPI cards
+
+### 6. AI Integration
+- Used AI tools to assist with DAX optimization
+- Supported metric selection and insight discovery
